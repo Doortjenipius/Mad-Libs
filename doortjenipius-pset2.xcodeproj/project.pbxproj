@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		505F631C219F0B1D0081752F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F631B219F0B1D0081752F /* AppDelegate.swift */; };
-		505F631E219F0B1D0081752F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F631D219F0B1D0081752F /* ViewController.swift */; };
+		505F631E219F0B1D0081752F /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F631D219F0B1D0081752F /* IntroductionViewController.swift */; };
 		505F6321219F0B1D0081752F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505F631F219F0B1D0081752F /* Main.storyboard */; };
 		505F6323219F0B1F0081752F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505F6322219F0B1F0081752F /* Assets.xcassets */; };
 		505F6326219F0B1F0081752F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505F6324219F0B1F0081752F /* LaunchScreen.storyboard */; };
 		505F6331219F0B1F0081752F /* doortjenipius_pset2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F6330219F0B1F0081752F /* doortjenipius_pset2Tests.swift */; };
 		505F633C219F0B1F0081752F /* doortjenipius_pset2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F633B219F0B1F0081752F /* doortjenipius_pset2UITests.swift */; };
+		50B562A921A2F03C0091849A /* SubmitWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B562A821A2F03B0091849A /* SubmitWords.swift */; };
+		50FB38B1219F0F1800E49770 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB38AF219F0F1500E49770 /* Story.swift */; };
+		50FB38B921A2C8E700E49770 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50FB38B421A2C8E700E49770 /* madlib1_tarzan.txt */; };
+		50FB38BA21A2C8E700E49770 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50FB38B521A2C8E700E49770 /* madlib4_dance.txt */; };
+		50FB38BB21A2C8E700E49770 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50FB38B621A2C8E700E49770 /* madlib2_university.txt */; };
+		50FB38BC21A2C8E700E49770 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50FB38B721A2C8E700E49770 /* madlib0_simple.txt */; };
+		50FB38BD21A2C8E700E49770 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50FB38B821A2C8E700E49770 /* madlib3_clothes.txt */; };
+		50FB38BF21A2D54100E49770 /* 81FVBDuryaL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50FB38BE21A2D54100E49770 /* 81FVBDuryaL.jpg */; };
+		50FB38C721A2DB0900E49770 /* GamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB38C621A2DB0900E49770 /* GamePage.swift */; };
+		50FB38C921A2DB2200E49770 /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB38C821A2DB2200E49770 /* ResultPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		505F6318219F0B1D0081752F /* doortjenipius-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doortjenipius-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		505F631B219F0B1D0081752F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		505F631D219F0B1D0081752F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		505F631D219F0B1D0081752F /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		505F6320219F0B1D0081752F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		505F6322219F0B1F0081752F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505F6325219F0B1F0081752F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		505F6337219F0B1F0081752F /* doortjenipius-pset2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doortjenipius-pset2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		505F633B219F0B1F0081752F /* doortjenipius_pset2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doortjenipius_pset2UITests.swift; sourceTree = "<group>"; };
 		505F633D219F0B1F0081752F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B562A821A2F03B0091849A /* SubmitWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitWords.swift; sourceTree = "<group>"; };
+		50FB38AF219F0F1500E49770 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = "doortjenipius-pset2/Story.swift"; sourceTree = SOURCE_ROOT; };
+		50FB38B421A2C8E700E49770 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = Assets.xcassets/madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
+		50FB38B521A2C8E700E49770 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = Assets.xcassets/madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
+		50FB38B621A2C8E700E49770 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = Assets.xcassets/madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
+		50FB38B721A2C8E700E49770 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = Assets.xcassets/madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
+		50FB38B821A2C8E700E49770 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = Assets.xcassets/madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
+		50FB38BE21A2D54100E49770 /* 81FVBDuryaL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 81FVBDuryaL.jpg; path = Assets.xcassets/81FVBDuryaL.jpg; sourceTree = "<group>"; };
+		50FB38C621A2DB0900E49770 /* GamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePage.swift; sourceTree = "<group>"; };
+		50FB38C821A2DB2200E49770 /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +117,18 @@
 		505F631A219F0B1D0081752F /* doortjenipius-pset2 */ = {
 			isa = PBXGroup;
 			children = (
+				50FB38BE21A2D54100E49770 /* 81FVBDuryaL.jpg */,
+				50FB38B721A2C8E700E49770 /* madlib0_simple.txt */,
+				50FB38B421A2C8E700E49770 /* madlib1_tarzan.txt */,
+				50FB38B621A2C8E700E49770 /* madlib2_university.txt */,
+				50FB38B821A2C8E700E49770 /* madlib3_clothes.txt */,
+				50FB38B521A2C8E700E49770 /* madlib4_dance.txt */,
+				505F631D219F0B1D0081752F /* IntroductionViewController.swift */,
+				50FB38C621A2DB0900E49770 /* GamePage.swift */,
+				50FB38C821A2DB2200E49770 /* ResultPage.swift */,
+				50B562A821A2F03B0091849A /* SubmitWords.swift */,
+				50FB38AF219F0F1500E49770 /* Story.swift */,
 				505F631B219F0B1D0081752F /* AppDelegate.swift */,
-				505F631D219F0B1D0081752F /* ViewController.swift */,
 				505F631F219F0B1D0081752F /* Main.storyboard */,
 				505F6322219F0B1F0081752F /* Assets.xcassets */,
 				505F6324219F0B1F0081752F /* LaunchScreen.storyboard */,
@@ -229,8 +259,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50FB38BF21A2D54100E49770 /* 81FVBDuryaL.jpg in Resources */,
 				505F6326219F0B1F0081752F /* LaunchScreen.storyboard in Resources */,
+				50FB38BC21A2C8E700E49770 /* madlib0_simple.txt in Resources */,
+				50FB38B921A2C8E700E49770 /* madlib1_tarzan.txt in Resources */,
+				50FB38BA21A2C8E700E49770 /* madlib4_dance.txt in Resources */,
 				505F6323219F0B1F0081752F /* Assets.xcassets in Resources */,
+				50FB38BB21A2C8E700E49770 /* madlib2_university.txt in Resources */,
+				50FB38BD21A2C8E700E49770 /* madlib3_clothes.txt in Resources */,
 				505F6321219F0B1D0081752F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505F631E219F0B1D0081752F /* ViewController.swift in Sources */,
+				50FB38C721A2DB0900E49770 /* GamePage.swift in Sources */,
+				505F631E219F0B1D0081752F /* IntroductionViewController.swift in Sources */,
+				50FB38C921A2DB2200E49770 /* ResultPage.swift in Sources */,
 				505F631C219F0B1D0081752F /* AppDelegate.swift in Sources */,
+				50FB38B1219F0F1800E49770 /* Story.swift in Sources */,
+				50B562A921A2F03C0091849A /* SubmitWords.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KAFJAV3SW;
 				INFOPLIST_FILE = "doortjenipius-pset2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KAFJAV3SW;
 				INFOPLIST_FILE = "doortjenipius-pset2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
