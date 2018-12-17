@@ -9,7 +9,9 @@
 import UIKit
 
 class IntroductionViewController: UIViewController {
-
+    
+    
+    // Code for the unwind segue. Linked to 'done' button. 
     @IBAction func unwindToIntro(segue: UIStoryboardSegue){
     }
     
@@ -18,7 +20,7 @@ class IntroductionViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    
+    
 }
 

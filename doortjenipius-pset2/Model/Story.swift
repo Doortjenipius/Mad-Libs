@@ -22,7 +22,7 @@ struct Story {
     static private let startString = """
 <div style='font-family: "Helvetica Neue"; font-size: 12pt'>
 """
-
+    
     static private let endString = "</div>"
     
     /// Text of the story.
@@ -106,4 +106,4 @@ struct Story {
     }
 }
 
-    
+

@@ -8,10 +8,12 @@
 
 import UIKit
 
-class GamePage: UIViewController {
-
+class GamePageViewController: UIViewController {
+    
+    // Name of story saved in this string.
     var name: String!
     
+    // Buttons to choose the name of the story.
     @IBAction func simpleButton(_ sender: Any) {
         name = "madlib0_simple"
         performSegue(withIdentifier: "Submit", sender: sender)
@@ -33,28 +35,28 @@ class GamePage: UIViewController {
         performSegue(withIdentifier: "Submit", sender: sender)
     }
     
-    
+    // Segue links the correct textfile name to the SubmitWordsViewcontroller.
     override func prepare(for segue: UIStoryboardSegue, sender:
         Any?) {
         if segue.identifier == "Submit" {
-            let words = segue.destination as! SubmitWords
+            let words = segue.destination as! SubmitWordsViewController
             words.name = name
         }
+        
+    }
     
-}
-
     override func viewDidLoad() {
         super.viewDidLoad()
-}
-}
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
+}
+/*
+ // MARK: - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // Get the new view controller using segue.destination.
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 

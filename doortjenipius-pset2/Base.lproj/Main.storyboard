@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="-167" y="133"/>
         </scene>
-        <!--Game Page-->
+        <!--Game Page View Controller-->
         <scene sceneID="PRU-dD-eZ3">
             <objects>
-                <viewController id="tJf-BM-N1v" customClass="GamePage" customModule="doortjenipius_pset2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tJf-BM-N1v" customClass="GamePageViewController" customModule="doortjenipius_pset2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9eY-a2-W2H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,7 +199,7 @@
         <!--Your Mad Lib story!-->
         <scene sceneID="Kh5-0x-ehC">
             <objects>
-                <viewController id="9IQ-mZ-SqS" customClass="ResultPage" customModule="doortjenipius_pset2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9IQ-mZ-SqS" customClass="ResultPageViewController" customModule="doortjenipius_pset2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RwQ-kp-Y2p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,10 +236,10 @@
             </objects>
             <point key="canvasLocation" x="2942.0289855072465" y="132.88043478260872"/>
         </scene>
-        <!--Submit Words-->
+        <!--Submit Words View Controller-->
         <scene sceneID="Kfq-RY-ulT">
             <objects>
-                <viewController id="YtU-mg-2Kn" customClass="SubmitWords" customModule="doortjenipius_pset2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YtU-mg-2Kn" customClass="SubmitWordsViewController" customModule="doortjenipius_pset2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ihi-3g-q2k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
